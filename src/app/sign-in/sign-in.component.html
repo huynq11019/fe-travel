@@ -22,6 +22,16 @@
           Log in with Google
         </button>
       </div>
+      <div class="formGroup">
+        <button
+          type="button"
+          class="btn facebookBtn"
+          (click)="authService.facebookAuth()"
+        >
+          <i class="bi bi-facebook"></i>
+          Continue with facebook
+        </button>
+      </div>
       <div class="forgotPassword">
         <span routerLink="/forgot-password">Forgot Password?</span>
       </div>
